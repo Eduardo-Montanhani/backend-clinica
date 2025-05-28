@@ -23,7 +23,7 @@ public class Paciente {
     private String nome;
 
     @NotBlank(message = "O CPF é obrigatório")
-    @Size(min = 11, max = 11, message = "O CPF deve ter exatamente 11 dígitos")
+    @Size(min = 14, max = 14, message = "O CPF deve ter exatamente 11 dígitos")
     private String cpf;
 
     @NotBlank(message = "O telefone é obrigatório")
